@@ -1,5 +1,0 @@
-def count_digits(num):
-  return sum(char.isdigit() for char in str(num))
-
-num = 123456
-print(count_digits(num))
