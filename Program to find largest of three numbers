@@ -1,5 +1,0 @@
-def largest_of_three(a, b, c):
-  return max(a, b, c)
-
-a, b, c = 5, 10, 2
-print(largest_of_three(a, b, c))
