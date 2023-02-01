@@ -1,16 +1,19 @@
-import turtle
-x=turtle.Turtle()
+!pip3 install ColabTurtle
+import ColabTurtle.Turtle
+t= ColabTurtle.Turtle
+t.initializeTurtle()
+t.speed(8)
 
 
 def square(angle):
-    x.forward(100)
-    x.right(angle)
-    x.forward(100)
-    x.right(angle)
-    x.forward(100)
-    x.right(angle)
-    x.forward(100)
-    x.right(angle+10)
+    t.forward(100)
+    t.right(angle)
+    t.forward(100)
+    t.right(angle)
+    t.forward(100)
+    t.right(angle)
+    t.forward(100)
+    t.right(angle+10)
 
 for i in range(36):
     square(90)
